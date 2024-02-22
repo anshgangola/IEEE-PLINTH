@@ -1,0 +1,32 @@
+@import "~@sl-codeblaster/react-3d-animated-card/dist/index.css";
+
+.top {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .content{
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: bold;
+
+  }
+  .card{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 45%;
+   
+
+  }
+  .home {
+    width: 1000px;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally within its container */
+  }
+  
+  

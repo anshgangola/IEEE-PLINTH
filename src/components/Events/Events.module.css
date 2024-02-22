@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Slab&display=swap');
+
+
+.head{
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translateX(-50%);
+    font-family: 'Lilita One', sans-serif;
+    background: -webkit-linear-gradient(#f2693e, #c6aea8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+
+
+.cards {
+    position: absolute;
+    top: 55%;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    padding: 5rem 7rem;
+    margin: 0 auto; /* Center the div horizontally */
+    justify-content: space-around;
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+.content{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translateX(-50%);
+    padding:5rem 0;
+    text-align: center;
+
+}
+
+.content p{
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+}
+

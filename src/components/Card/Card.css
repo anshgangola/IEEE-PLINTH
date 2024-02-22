@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Poppins&display=swap');
+body {
+  background: #0f0f0f;
+  background: linear-gradient(135deg, #0f0f0f, #231847);
+  max-height: 100%;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.Case {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-bottom: 10rem;
+  margin-top:-5rem;
+
+}
+
+.card {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border: 2px solid ivory;
+  border-radius: 15px;
+  box-shadow: 1px 0px 13px -2px rgba(228, 92, 24, 0.75);
+  -webkit-box-shadow: 1px 0px 13px -2px rgba(220, 96, 24, 0.75);
+  -moz-box-shadow: 1px 0px 13px -2px rgba(213, 80, 35, 0.75);
+  background: #2a2a2a;
+  background: linear-gradient(0deg, #2a2a2a, #1d2428);
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.card_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 600px;
+}
+
+.rig_container {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rig_container > svg {
+  cursor: pointer;
+}
+
+.card h1 {
+  /* Style for the title */
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+.card img {
+  width:250px;
+  height: 250px;
+  display: block;
+  margin: 10px auto;
+  border: 5px solid #fff;
+}
+
+.card p {
+  text-align: center;
+}
+
+.cardContent {
+  /* Container for tagline and button */
+  text-align: center;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+.card button {
+  /* Style for the Learn More button */
+  display: block;
+  margin: 10px auto; /* Adjust margin as needed */
+  padding: 8px 16px;
+  background-color: #f2693e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card button:hover{
+  background-color: #8a2a0c;
+}
+
+.card-link{
+  text-decoration: none;
+}
+

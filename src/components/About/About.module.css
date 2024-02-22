@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Poppins&display=swap');
+
+.title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 1.5rem;
+    color:#f8f9fa;
+    font-weight: bold;
+  }
+
+  .head{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:#f2693e;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .college{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .info {
+    top:90%;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .ques{
+    padding:0 10rem;
+    position:absolute;
+    margin-top:45rem;
+    display:flex;
+    justify-content: space-around;
+    gap:3rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10rem;
+  }
+
+  .ques h1{
+    background-color:#f2693e;
+    border-radius: 12px;
+    padding:0 1rem;
+    
+  }
+  .first p{
+    line-height: 2rem;
+    font-size: large;
+  }
+  .second p{
+    line-height: 2rem;
+    font-size: large;
+  }
+  .third p{
+    line-height: 2rem;
+    font-size: large;
+  }
+
+  .first h1{
+    width:250px;
+  }
+  .second h1{
+    width:250px;
+  }
+
+  .third h1{
+    width:350px;
+  }
+
+  
+
+  
+

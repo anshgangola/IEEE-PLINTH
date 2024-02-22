@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Poppins&display=swap');
+.top{
+    position:fixed;
+    top:0%;
+    background-color: black;
+    padding: 2rem;
+    width:100%;
+    z-index: 1;
+
+}
+
+
+
+.list{
+    display:flex;
+    justify-content: flex-end;
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+.logo{
+    margin-top: -1.5rem;
+    width:23%;
+}
+
+li{
+    margin-right: 7rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li:hover{
+    color:#f2693e;
+}
+
+
+
+.reg {
+  appearance: button;
+  background-color: #e6a793;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.reg:after {
+  background-clip: padding-box;
+  background-color: #f2693e;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.reg:main,
+.reg:focus {
+  user-select: auto;
+}
+
+.reg:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.reg:main:disabled {
+  cursor: auto;
+}
+
+.reg:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.active{
+  color:#f2693e;
+  text-decoration: none;
+}
+
+.non{
+  text-decoration: none;
+  color:white;
+
+}
+
+.non:hover{
+  color:#f2693e;
+}
+
